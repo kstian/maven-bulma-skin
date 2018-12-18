@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Microservices"
+		 xmlns="http://maven.apache.org/DECORATION/1.8.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
+
+	<skin>
+		<groupId>com.github.ktarou</groupId>
+		<artifactId>maven-bulma-skin</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</skin>
+	<bannerLeft>
+		<name>Maven Bulma Skin</name>
+		<href>https://github.com/ktarou/maven-bulma-skin</href>
+	</bannerLeft>
+	<bannerRight>
+		<name>ACME</name>
+		<src>images/logo.png</src>
+	</bannerRight>
+	<body>
+		<head>
+			<![CDATA[
+				<link rel="icon" href="img/logo.png">
+			]]>
+		</head>
+		<breadcrumbs>
+      		<item name="Home"  href="index.html" />
+    	</breadcrumbs>
+		<menu name="Documentation">
+			<item name="Overview" href="index.html" />
+			<item name="Sample 1" href="#">
+				<item name="Sample A" href="a.html" />
+				<item name="Sample B" href="b.html" />
+				<item name="Sample C" href="c.html" />
+			</item>
+		</menu>
+		<menu name="Info and reports">
+			<item name="Info" href="./project-info.html" />
+			<item name="Reports" href="./project-reports.html" />
+			<item name="JavaDocs" href="./apidocs/" />
+		</menu>
+		<menu name="Github">
+			<item name="SCM" href="https://github.com/ktarou/maven-bulma-skin"/>
+			<item name="Issues" href="https://github.com/ktarou/maven-bulma-skin/issues"/>
+		</menu>
+		<menu name="ACME" inherit="bottom">
+			<item name="Website" href="https://www.example.com" />
+		</menu>
+	</body>
+</project>
