@@ -34,10 +34,8 @@
 				<item name="Sample C" href="c.html" />
 			</item>
 		</menu>
-		<menu name="Info and reports">
-			<item name="Info" href="./project-info.html" />
-			<item name="Reports" href="./project-reports.html" />
-			<item name="JavaDocs" href="./apidocs/" />
+		<menu name="Project">
+			<item name="Info" href="project-info.html" />
 		</menu>
 		<menu name="Github">
 			<item name="SCM" href="https://github.com/ktarou/maven-bulma-skin"/>
