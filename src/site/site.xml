@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<project name="Microservices"
+<project name="Maven Bulma Skin"
 		 xmlns="http://maven.apache.org/DECORATION/1.8.0"
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
@@ -11,10 +11,10 @@
 	</skin>
 	<bannerLeft>
 		<name>Maven Bulma Skin</name>
-		<href>https://github.com/ktarou/maven-bulma-skin</href>
+		<href>https://ktarou.github.io/maven-bulma-skin</href>
 	</bannerLeft>
 	<bannerRight>
-		<name>ACME</name>
+		<name>Logo</name>
 		<src>images/logo.png</src>
 	</bannerRight>
 	<body>
@@ -28,21 +28,25 @@
     	</breadcrumbs>
 		<menu name="Documentation">
 			<item name="Overview" href="index.html" />
+		</menu>
+		<menu name="Project">
+			<item name="Summary" href="project-summary.html" />
+			<item name="Dependency" href="dependency-info.html" />
+			<item name="Source Code" href="source-repository.html" />
+			<item name="Issues" href="https://github.com/ktarou/maven-bulma-skin/issues"/>
+			<item name="Team" href="team-list.html" />
+			<item name="Distribution" href="distribution-management.html" />
+			<item name="Plugins" href="plugins.html" />
+			<item name="Plugins Management" href="plugin-management.html" />
+			<item name="License" href="license.html" />
+			<item name="Info" href="project-info.html" />
+		</menu>
+		<menu name="Sample Content">
 			<item name="Sample 1" href="#">
 				<item name="Sample A" href="a.html" />
 				<item name="Sample B" href="b.html" />
 				<item name="Sample C" href="c.html" />
 			</item>
-		</menu>
-		<menu name="Project">
-			<item name="Info" href="project-info.html" />
-		</menu>
-		<menu name="Github">
-			<item name="SCM" href="https://github.com/ktarou/maven-bulma-skin"/>
-			<item name="Issues" href="https://github.com/ktarou/maven-bulma-skin/issues"/>
-		</menu>
-		<menu name="ACME" inherit="bottom">
-			<item name="Website" href="https://www.example.com" />
 		</menu>
 	</body>
 </project>
