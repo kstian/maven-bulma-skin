@@ -86,7 +86,8 @@
 #*            *##if( $decoration.body.footer)
 #*		        *##poweredBy( $decoration.poweredBy )
 #*            *##else
-                <img src="$relativePath/images/maven-feather.png"/>
+                <a href="https://maven.apache.org/"><img src="$relativePath/images/maven-feather.png"/></a>
+                <a href="https://bulma.io"><img src="$relativePath/images/bulma-logo.png"/></a>
 #*            *##end
 			</div>
 		</div>
